@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="swap.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"
+            type="text/javascript">
+    </script>
+    <script>
+        $(document).ready(function(){
+            $("img").click(function(){
+                if($(this).attr("src")==($(this).attr("ninja"))){
+                    this.src = $(this).attr("catpic")}
+                    else{this.src =$(this).attr( "ninja")
+                }
+                    
+            })
+        })
+                
+        
+        
+        
+    
+            
+        
+        </script>
+        
+    
+</head>
+<body>
+    <h1>Ninja to Cat</h1>
+    <div class="ninja">
+            <img src ='ninja0.png' ninja=ninja0.png catpic ='cat0.png'/>
+            <img src ='ninja1.png' ninja=ninja1.png catpic ='cat1.png'/>
+            <img src ='ninja2.png' ninja=ninja2.png catpic ='cat2.png'/>
+            <img src ='ninja3.png' ninja=ninja3.png catpic ='cat3.png'/>
+            <img src ='ninja4.png' ninja=ninja4.png catpic ='cat4.png'/>
+    </div>   
+    
+</body>
+</html>
